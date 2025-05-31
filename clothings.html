@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing - DesiKart</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .category-products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #e2e7e6;
+        }
+        .product-card {
+            width: 250px;
+            background-color: white;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-card img {
+            max-width: 200px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+        }
+        .product-card .price {
+            color: #007185;
+            font-weight: bold;
+        }
+        .product-card button {
+            background-color: #f0c14b;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+                <a href="index.html" class="logo"></a>
+            </div>
+    
+            <div class="nav-address border">
+                <p class="add-first">Deliver to India</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div> 
+            </div>
+    
+            <div class="nav-signin border">
+                <a href="signin.html">
+                    <p class="nav-second">Account & Lists</p>
+                </a>
+            </div>
+    
+            <div class="nav-return border">
+                <a href="orders.html">
+                    <p class="nav-second">Returns & Orders</p>
+                </a>
+            </div>
+    
+                <div class="panel-options border">
+                    <p><a href="contact.html">Contact Us</a></p>
+                </div>
+    
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+    </header>
+
+    <div class="category-products">
+        <div class="product-card">
+            <img src="tshirt.webp" alt="T-Shirt">
+            <h3>Casual T-Shirt</h3>
+            <p class="price">₹499</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="jeans.webp" alt="Jeans">
+            <h3>Slim Fit Jeans</h3>
+            <p class="price">₹1,299</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="hoodie.webp" alt="Hoodie">
+            <h3>Winter Hoodie</h3>
+            <p class="price">₹1,399</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="shirt.webp" alt="Shirt">
+            <h3>Woman Shirt</h3>
+            <p class="price">₹1,099</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Blog</a>
+                <a href="#">About DesiKart</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">DesiKart Devices</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell products on DesiKart</a>
+                <a href="#">Sell on  DesiKart Business</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+            </ul>
+            <ul>
+                <p>DesiKart Payment Products</p>
+                <a href="#">DesiKart Business Card</a>
+                <a href="#">Shop with Points</a>
+                <a href="#">Reload Your Balance</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="orders.html">Your Orders</a>
+                <a href="signin.html">Your Account</a>
+                <a href="#">Shipping Rates & Policies</a>
+                <a href="#">Returns & Replacements</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+    
+            <div class="foot-panel3">
+                <div class="logo"></div>
+            </div>
+    
+            <div class="foot-panel4">
+                <div class="pages">
+                <underline>
+                    <a href="condition.html">Conditions of Use</a>
+                    <a href="privacy.html">Privacy Notice</a>
+                </underline>
+                </div>
+                <div class="copyright">
+                    1996-2024, desikart.com, Inc. or its affiliates
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

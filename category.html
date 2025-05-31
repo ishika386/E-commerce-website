@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - ShopVibe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .category-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product-card {
+            width: 200px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="category-container">
+        <h1>Category Name</h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="/api/placeholder/200/200" alt="Product">
+                <h3>Product Name</h3>
+                <p>Price: ₹999</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- More product cards can be added -->
+        </div>
+    </div>
+</body>
+</html>
